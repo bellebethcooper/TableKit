@@ -4,5 +4,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "TableKit"
+    name: "TableKit",
+
+    products: [
+        .library(
+            name: "TableKit",
+            targets: ["TableKit"]),
+    ],
+
+    targets: [
+        .target(
+            name: "TableKit",
+            dependencies: [])
+    ]
 )
