@@ -15,6 +15,6 @@ let package = Package(
     targets: [
         .target(
             name: "TableKit",
-            dependencies: [])
+            path: "Sources")
     ]
 )
